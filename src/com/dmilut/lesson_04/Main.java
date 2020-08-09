@@ -23,6 +23,35 @@ public class Main {
                 System.out.println(a - b);
                 */
 
+
+        int a=30;
+        int b=13;
+
+
+        int c=a+b, d=a-b, e=a*b, f=a/b, g=a%b, h=a++, i=b--;
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
+        System.out.println(h);
+        System.out.println(i);
+
+        System.out.println("My answer is:"+'\n'+c+'\n'+d+'\n'+e+'\n'+f+'\n'+g+'\n'+h+'\n'+i+'\n');
+
+
+        System.out.println("My answer is: "+c);
+        System.out.println("My answer is: "+d);
+        System.out.println("My answer is: "+e);
+        System.out.println("My answer is: "+f);
+        System.out.println("My answer is: "+g);
+        System.out.println("My answer is: "+h);
+        System.out.println("My answer is: "+i);
+
+        System.out.println("My answer is: c, d, e, f, g, h, i");
+
+
+
             /*  Операторы сравнения ---------------------------------------
              ==	Проверяет, равны или нет значения двух операндов, если да, то условие становится истинным
              !=	Проверяет, равны или нет значения двух операндов, если значения не равны, то условие становится истинным
@@ -40,6 +69,11 @@ public class Main {
                 1. Создать 2 переменные a и b типа boolean
                 2. Инициализировать переменные любыми значениями
                 3. Написать по 2-3 примера с каждым арифметическим оператором */
+
+        int y=120;
+        int x=12;
+
+        ;
 
             /*
                 Логические операторы ---------------------------------------
@@ -78,7 +112,7 @@ public class Main {
        */
 
 
-        int a = 1;
+       /* int a = 1;
         int b = 2;
         int c = 0;
 
@@ -86,6 +120,6 @@ public class Main {
 
             c++;
             System.out.println("c = " + c);
-        };
+        };*/
     }
 }
